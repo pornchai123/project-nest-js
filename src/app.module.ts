@@ -9,7 +9,7 @@ import { DataSource } from 'typeorm';
         TypeOrmModule.forRoot({
             type: 'mariadb',
             host: 'localhost',
-            port: 8081,
+            port: 3306,
             username: 'root',
             password: 'root',
             database: 'test',
